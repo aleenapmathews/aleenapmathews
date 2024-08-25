@@ -2,31 +2,29 @@
   display: flex;
   align-items: center;
   padding: 0 9%;
-  
 }
 
-.home-img{
+.home-img {
   height: 900px;
   width: 900px;
-  background: url("/Me.png") no-repeat;
+  background: url("/Me.webp") no-repeat;
   background-size: contain;
   background-position: right;
   transform: translateX(25%);
-  animation: 1s ease-in 0s  slideInFromLeft;
+  animation: 1s ease-in 0s slideInFromLeft;
 }
 @keyframes slideInFromLeft {
   0% {
-    background: url("/Me.png") no-repeat;
+    background: url("/Me.webp") no-repeat;
     background-size: contain;
     background-position: right;
-    transform: translate(25%,100%);
-  
+    transform: translate(25%, 100%);
   }
   100% {
-    background: url("/Me.png") no-repeat;
+    background: url("/Me.webp") no-repeat;
     background-size: contain;
     background-position: right;
-    transform: translate(25%,0);
+    transform: translate(25%, 0);
   }
 }
 

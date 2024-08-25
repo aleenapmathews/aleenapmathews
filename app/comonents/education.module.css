@@ -63,3 +63,8 @@
 .education-content .content h3{
     font-size: 2rem;
 }
+
+.education-content .content p{
+    font-size: 1.6rem;
+    padding-top: .5rem;
+}

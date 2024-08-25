@@ -89,7 +89,7 @@ export default function Education() {
               <div className={style["content"]}>
                 <div className={style["year"]}>
                   <i className={"bx bxs-calendar"}></i>2017 - 2018
-                </div>
+                </div> 
                 <h3>Master Degree-University</h3>
                 <p>
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
