@@ -53,7 +53,7 @@ export default function Education() {
             </div>
           </div>
         </div>
-{/* work Experience */}
+        {/* work Experience */}
         <div className={style["education-column"]}>
           <h3 className={style["title"]}>Experience</h3>
           <div className={style["education-box"]}>
@@ -89,7 +89,7 @@ export default function Education() {
               <div className={style["content"]}>
                 <div className={style["year"]}>
                   <i className={"bx bxs-calendar"}></i>2017 - 2018
-                </div> 
+                </div>
                 <h3>Master Degree-University</h3>
                 <p>
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -98,12 +98,8 @@ export default function Education() {
                 </p>
               </div>
             </div>
-
           </div>
         </div>
-
-
-
       </div>
     </section>
   );
