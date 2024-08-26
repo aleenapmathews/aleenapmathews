@@ -2,11 +2,15 @@
   display: flex;
   align-items: center;
   padding: 0 9%;
+} 
+
+.home span{
+  color: var(--main-color);
 }
 
 .home-img {
-  height: 900px;
-  width: 900px;
+  height: 1070px;
+  width: 1070px;
   background: url("/Me.webp") no-repeat;
   background-size: contain;
   background-position: right;
@@ -29,7 +33,7 @@
 }
 
 .home-content {
-  max-width: 60rem;
+  max-width: 70rem;
 }
 
 .home-content h1 {

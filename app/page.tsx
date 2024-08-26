@@ -6,6 +6,7 @@ import About from "./comonents/about";
 import Education from "./comonents/education";
 import Skills from "./comonents/skills";
 import Contact from "./comonents/contact";
+import Footer from "./comonents/footer";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Education/>
       <Skills/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }
