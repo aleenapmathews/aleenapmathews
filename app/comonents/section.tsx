@@ -11,9 +11,10 @@ export default function Section() {
           <h3>Frontend Developer</h3>
         </div>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-          provident aperiam dicta voluptatem, officia aspernatur, illum odit
-          neque necessitatibus sed eaque fuga eos, nobis placeat est pariatur.
+          Welcome to my portfolio website!. This
+          website is a space where I blend my technical skills with my creative
+          interests, showcasing a collection of my work.I invite you to explore,
+          learn more about what I do, and hopefully, get inspired along the way.
         </p>
         <div className={styles["btn-box"]}>
           <a href="#" className={styles["btn"]}>
@@ -24,8 +25,7 @@ export default function Section() {
           </a>
         </div>
       </div>
-      <div className={styles["home-img"]}>
-      </div>
+      <div className={styles["home-img"]}></div>
     </section>
   );
 }
