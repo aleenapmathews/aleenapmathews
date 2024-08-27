@@ -16,6 +16,7 @@
 
 .heading span {
   color: var(--main-color);
+  font-size: 6rem;
 }
 
 .about-content {

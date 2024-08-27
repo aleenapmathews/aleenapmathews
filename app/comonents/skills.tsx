@@ -1,9 +1,19 @@
+"use client";
 import style from "./skills.module.css";
+import { motion } from "framer-motion";
+
 export default function Skills() {
   return (
     <section className={style["skills"]} id="skills">
       <h2 className={style["heading"]}>
-        My <span>Skills</span>
+        My{" "}
+        <motion.span
+          initial={{ opacity: 0, scale: 0.5 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1.0 }}
+        >
+          Skills
+        </motion.span>
       </h2>
       <div className={style["skills-row"]}>
         <div className={style["skills-column"]}>
@@ -15,7 +25,11 @@ export default function Skills() {
                   HTML <span>30%</span>
                 </h3>
                 <div className={style["bar"]}>
-                  <span></span>
+                  <motion.span
+                    initial={{ width: 0 }}
+                    whileInView={{ width: "30%" }}
+                    transition={{ duration: 0.5 }}
+                  ></motion.span>
                 </div>
               </div>
 
@@ -24,7 +38,11 @@ export default function Skills() {
                   CSS <span>30%</span>
                 </h3>
                 <div className={style["bar"]}>
-                  <span></span>
+                  <motion.span
+                    initial={{ width: 0 }}
+                    whileInView={{ width: "30%" }}
+                    transition={{ duration: 0.5 }}
+                  ></motion.span>
                 </div>
               </div>
 
@@ -33,7 +51,11 @@ export default function Skills() {
                   C <span>50%</span>
                 </h3>
                 <div className={style["bar"]}>
-                  <span></span>
+                  <motion.span
+                    initial={{ width: 0 }}
+                    whileInView={{ width: "50%" }}
+                    transition={{ duration: 0.5 }}
+                  ></motion.span>
                 </div>
               </div>
 
@@ -42,7 +64,11 @@ export default function Skills() {
                   Python <span>50%</span>
                 </h3>
                 <div className={style["bar"]}>
-                  <span></span>
+                  <motion.span
+                    initial={{ width: 0 }}
+                    whileInView={{ width: "50%" }}
+                    transition={{ duration: 0.5 }}
+                  ></motion.span>
                 </div>
               </div>
             </div>
@@ -58,7 +84,11 @@ export default function Skills() {
                   Drawing <span>90%</span>
                 </h3>
                 <div className={style["bar"]}>
-                  <span></span>
+                  <motion.span
+                    initial={{ width: 0 }}
+                    whileInView={{ width: "90%" }}
+                    transition={{ duration: 0.5 }}
+                  ></motion.span>
                 </div>
               </div>
 
@@ -67,7 +97,11 @@ export default function Skills() {
                   Painting <span>89%</span>
                 </h3>
                 <div className={style["bar"]}>
-                  <span></span>
+                  <motion.span
+                    initial={{ width: 0 }}
+                    whileInView={{ width: "89%" }}
+                    transition={{ duration: 0.5 }}
+                  ></motion.span>
                 </div>
               </div>
 
@@ -76,7 +110,11 @@ export default function Skills() {
                   Fabric Painting <span>89%</span>
                 </h3>
                 <div className={style["bar"]}>
-                  <span></span>
+                  <motion.span
+                    initial={{ width: 0 }}
+                    whileInView={{ width: "89%" }}
+                    transition={{ duration: 0.5 }}
+                  ></motion.span>
                 </div>
               </div>
 
@@ -85,16 +123,17 @@ export default function Skills() {
                   Photography <span>70%</span>
                 </h3>
                 <div className={style["bar"]}>
-                  <span></span>
+                  <motion.span
+                    initial={{ width: 0 }}
+                    whileInView={{ width: "70%" }}
+                    transition={{ duration: 0.5 }}
+                  ></motion.span>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <a href="mailto:aleenapmathews2004@gmail.com?subject=Hire%20Me&body=Hello%20How%20are%20you">
-        Link text
-      </a>
     </section>
   );
 }

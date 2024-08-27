@@ -1,10 +1,19 @@
+"use client";
+import { motion } from "framer-motion";
 import style from "./education.module.css";
 
 export default function Education() {
   return (
     <section className={style["education"]} id="education">
       <h2 className={style["heading"]}>
-        My <span>Journey</span>
+        My{" "}
+        <motion.span
+          initial={{ opacity: 0, scale: 0.5 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1.0 }}
+        >
+          Journey
+        </motion.span>
       </h2>
       <div className={style["education-row"]}>
         <div className={style["education-column"]}>
