@@ -99,7 +99,8 @@ export default function Education() {
                 <p>
                   A BMI (Body Mass Index) calculator is a tool that helps
                   determine if an individual's weight is within a healthy range
-                  for their height.
+                  for their height.<br></br>
+                  <a style={{color:"var(--main-color)"}}href="https://bmi-tau-one.vercel.app/">https://bmi-tau-one.vercel.app/</a>
                 </p>
               </div>
             </div>
