@@ -25,10 +25,13 @@ export default function Hero() {
           do, and hopefully, get inspired along the way.
         </p>
         <div className={styles["btn-box"]}>
-          <a href="#" className={styles["btn"]}>
-            Hire Me
+          <a
+            href="https://www.canva.com/design/DAGOW1h4u8E/uQT12zsSlJ5YMdoOxfE7BQ/view?utm_content=DAGOW1h4u8E&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+            className={styles["btn"]}
+          >
+            My Resume
           </a>
-          <a href="#" className={styles["btn"]}>
+          <a href="#contact" className={styles["btn"]}>
             Let&apos;s Talk
           </a>
         </div>
