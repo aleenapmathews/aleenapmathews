@@ -22,13 +22,25 @@ export default function Education() {
             <div className={style["education-content"]}>
               <div className={style["content"]}>
                 <div className={style["year"]}>
-                  <i className={"bx bxs-calendar"}></i>2017 - 2018
+                  <i className={"bx bxs-calendar"}></i>2022-2026
                 </div>
-                <h3>Master Degree-University</h3>
+                <h3>Bachelor Degree-college</h3>
                 <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Consequatur expedita inventore earum quisquam similique,
-                  dignissimos in unde necessitatibus cum animi.
+                  I&apos;m a 3rd-year Computer Science student at Saintgits
+                  College of Engineering.
+                </p>
+              </div>
+            </div>
+
+            <div className={style["education-content"]}>
+              <div className={style["content"]}>
+                <div className={style["year"]}>
+                  <i className="bx bxs-calendar"></i>2020 - 2022
+                </div>
+                <h3>Senior Secondary Education</h3>
+                <p>
+                  I completed my senior secondary education from C.M.S.C.H.S.S
+                  Kottayam.
                 </p>
               </div>
             </div>
@@ -38,25 +50,9 @@ export default function Education() {
                 <div className={style["year"]}>
                   <i className="bx bxs-calendar"></i>2017 - 2018
                 </div>
-                <h3>Master Degree-University</h3>
+                <h3>Secondary Education</h3>
                 <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Consequatur expedita inventore earum quisquam similique,
-                  dignissimos in unde necessitatibus cum animi.
-                </p>
-              </div>
-            </div>
-
-            <div className={style["education-content"]}>
-              <div className={style["content"]}>
-                <div className={style["year"]}>
-                  <i className="bx bxs-calendar"></i>2017 - 2018
-                </div>
-                <h3>Master Degree-University</h3>
-                <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Consequatur expedita inventore earum quisquam similique,
-                  dignissimos in unde necessitatibus cum animi.
+                  I completed my secondary education from C.M.S.C.H.S.S Kottayam
                 </p>
               </div>
             </div>
@@ -64,14 +60,14 @@ export default function Education() {
         </div>
         {/* work Experience */}
         <div className={style["education-column"]}>
-          <h3 className={style["title"]}>Experience</h3>
+          <h3 className={style["title"]}>Projects</h3>
           <div className={style["education-box"]}>
             <div className={style["education-content"]}>
               <div className={style["content"]}>
                 <div className={style["year"]}>
-                  <i className={"bx bxs-calendar"}></i>2017 - 2018
+                  <i className={"bx bxs-calendar"}></i>2024
                 </div>
-                <h3>Master Degree-University</h3>
+                <h3>Portfolio</h3>
                 <p>
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Consequatur expedita inventore earum quisquam similique,
@@ -97,13 +93,13 @@ export default function Education() {
             <div className={style["education-content"]}>
               <div className={style["content"]}>
                 <div className={style["year"]}>
-                  <i className={"bx bxs-calendar"}></i>2017 - 2018
+                  <i className={"bx bxs-calendar"}></i>2023
                 </div>
-                <h3>Master Degree-University</h3>
+                <h3>BMI Calculator</h3>
                 <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Consequatur expedita inventore earum quisquam similique,
-                  dignissimos in unde necessitatibus cum animi.
+                  A BMI (Body Mass Index) calculator is a tool that helps
+                  determine if an individual's weight is within a healthy range
+                  for their height.
                 </p>
               </div>
             </div>
